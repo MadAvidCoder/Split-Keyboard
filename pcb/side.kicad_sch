@@ -2530,131 +2530,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "custom_power:VREF"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VREF"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VREF\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VREF_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VREF_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -3440,7 +3315,7 @@
 		(uuid "10228d7e-4a54-4ce8-ad6b-5abdd194ac65")
 	)
 	(junction
-		(at 344.17 207.01)
+		(at 276.86 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11055fc2-a51d-4011-8233-cff4765eac86")
@@ -3548,7 +3423,7 @@
 		(uuid "5291d327-8bba-4f27-8f29-2cbc76bf1332")
 	)
 	(junction
-		(at 368.3 207.01)
+		(at 300.99 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54ac4c35-8dee-4ba3-96d6-ecafba414b26")
@@ -3620,7 +3495,7 @@
 		(uuid "6575aed1-8c47-4b76-aa12-a3e0e949ad07")
 	)
 	(junction
-		(at 392.43 207.01)
+		(at 325.12 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6eccc0ee-be2d-4032-8951-bf70666cffd9")
@@ -3912,20 +3787,12 @@
 		(uuid "32bd612f-4af3-4283-9e06-54d2c7000ab0")
 	)
 	(no_connect
-		(at 71.12 73.66)
-		(uuid "464e36e4-e8b6-455a-ad43-326b6e687ca6")
-	)
-	(no_connect
-		(at 86.36 49.53)
-		(uuid "627fd536-68bf-4a6b-9dcc-9d2d27ef27c1")
+		(at 332.74 215.9)
+		(uuid "4e9b2f23-3ad3-4db2-93cb-cc013e6c0359")
 	)
 	(no_connect
 		(at 83.82 40.64)
 		(uuid "8a28ad24-2742-4357-91bf-c38d88d2240a")
-	)
-	(no_connect
-		(at 66.04 73.66)
-		(uuid "a6944d13-8de4-4b23-b6d2-890d47896dd6")
 	)
 	(no_connect
 		(at 76.2 179.07)
@@ -3949,16 +3816,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 151.13) (xy 401.32 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00d19bb9-1b88-46e9-a81e-a5e51b91c317")
-	)
-	(wire
-		(pts
 			(xy 273.05 86.36) (xy 274.32 86.36)
 		)
 		(stroke
@@ -3976,6 +3833,16 @@
 			(type default)
 		)
 		(uuid "03b66415-2e28-41f6-9ca7-fd110ee8c39b")
+	)
+	(wire
+		(pts
+			(xy 327.66 93.98) (xy 336.55 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fa96cb-8c74-425a-927e-c4932b86a61c")
 	)
 	(wire
 		(pts
@@ -4089,16 +3956,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 214.63) (xy 327.66 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fa6d856-c15f-4b11-a3ee-be68d87a1c2e")
-	)
-	(wire
-		(pts
 			(xy 55.88 228.6) (xy 40.64 228.6)
 		)
 		(stroke
@@ -4146,26 +4003,6 @@
 			(type default)
 		)
 		(uuid "133ca183-e35b-40aa-a539-9a1b8ffc1ee8")
-	)
-	(wire
-		(pts
-			(xy 260.35 69.85) (xy 401.32 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c5addb-bedc-460c-8791-b435466c1aa2")
-	)
-	(wire
-		(pts
-			(xy 401.32 151.13) (xy 401.32 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "147680d5-b1d3-480a-b318-3674417d3500")
 	)
 	(wire
 		(pts
@@ -4226,6 +4063,16 @@
 			(type default)
 		)
 		(uuid "1a0803be-d769-4cf6-a8d6-1abf9b65562d")
+	)
+	(wire
+		(pts
+			(xy 50.8 77.47) (xy 50.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a46c565-d877-4a6a-a7c4-a3e841133d43")
 	)
 	(wire
 		(pts
@@ -4419,16 +4266,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 93.98) (xy 400.05 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a9ea10e-17d7-481f-96c4-9628e001eb8f")
-	)
-	(wire
-		(pts
 			(xy 285.75 33.02) (xy 285.75 31.75)
 		)
 		(stroke
@@ -4479,23 +4316,13 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 207.01) (xy 392.43 207.01)
+			(xy 323.85 208.28) (xy 325.12 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2e55cf3d-4304-44df-9da4-d977af38e18a")
-	)
-	(wire
-		(pts
-			(xy 260.35 93.98) (xy 260.35 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee740b0-40b6-48d8-bc20-97bc57d2064f")
 	)
 	(wire
 		(pts
@@ -4506,16 +4333,6 @@
 			(type default)
 		)
 		(uuid "2ff42d39-cbae-4f62-898c-4c7633a9a364")
-	)
-	(wire
-		(pts
-			(xy 327.66 93.98) (xy 336.55 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ff54c5f-d6e8-48b3-9e47-bd888976abc2")
 	)
 	(wire
 		(pts
@@ -4549,7 +4366,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 207.01) (xy 368.3 207.01)
+			(xy 299.72 208.28) (xy 300.99 208.28)
 		)
 		(stroke
 			(width 0)
@@ -4769,6 +4586,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 93.98) (xy 360.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42559337-2dbc-4177-9b69-a4facdc1e0ca")
+	)
+	(wire
+		(pts
 			(xy 60.96 143.51) (xy 63.5 143.51)
 		)
 		(stroke
@@ -4806,16 +4633,6 @@
 			(type default)
 		)
 		(uuid "45d460ed-a276-4b39-97ea-1d75fdc5e062")
-	)
-	(wire
-		(pts
-			(xy 281.94 93.98) (xy 289.56 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4653c902-1d28-49ec-b249-a62184e4ee74")
 	)
 	(wire
 		(pts
@@ -4899,17 +4716,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 93.98) (xy 384.81 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51cf27a4-c87a-4942-8228-ffcf5f7532a5")
-	)
-	(wire
-		(pts
-			(xy 375.92 214.63) (xy 384.81 214.63)
+			(xy 308.61 215.9) (xy 317.5 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4969,7 +4776,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 205.74) (xy 344.17 207.01)
+			(xy 276.86 207.01) (xy 276.86 208.28)
 		)
 		(stroke
 			(width 0)
@@ -4999,13 +4806,13 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 93.98) (xy 360.68 93.98)
+			(xy 375.92 93.98) (xy 384.81 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56696ccc-a67b-41d2-ac8b-92c974964111")
+		(uuid "567ab9a2-6f69-4f5d-ad70-9ab9d3df04f4")
 	)
 	(wire
 		(pts
@@ -5016,6 +4823,16 @@
 			(type default)
 		)
 		(uuid "5755c490-8fbd-42b4-b7fe-863415da1346")
+	)
+	(wire
+		(pts
+			(xy 304.8 93.98) (xy 312.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57691a7c-deec-44bc-b913-f7a74ddc3d20")
 	)
 	(wire
 		(pts
@@ -5189,16 +5006,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 69.85) (xy 401.32 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "658a3a0d-6083-4fa5-b2bf-0621fe4ef0ab")
-	)
-	(wire
-		(pts
 			(xy 344.17 85.09) (xy 344.17 86.36)
 		)
 		(stroke
@@ -5239,16 +5046,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 110.49) (xy 401.32 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ad77f9f-a582-4fa1-8caf-06166d83e7b5")
-	)
-	(wire
-		(pts
 			(xy 392.43 44.45) (xy 392.43 45.72)
 		)
 		(stroke
@@ -5256,16 +5053,6 @@
 			(type default)
 		)
 		(uuid "6b13f6ad-0bba-4efa-9cc1-3419c4990afd")
-	)
-	(wire
-		(pts
-			(xy 260.35 173.99) (xy 260.35 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b9fc362-f67e-4c74-8b48-42e1546fa559")
 	)
 	(wire
 		(pts
@@ -5329,6 +5116,16 @@
 	)
 	(wire
 		(pts
+			(xy 401.32 53.34) (xy 401.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f20096-c44e-4048-9122-f29bc5350f56")
+	)
+	(wire
+		(pts
 			(xy 304.8 173.99) (xy 312.42 173.99)
 		)
 		(stroke
@@ -5339,13 +5136,23 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 207.01) (xy 344.17 207.01)
+			(xy 275.59 208.28) (xy 276.86 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7104ed55-c00d-4172-aa6a-ab452b0bf228")
+	)
+	(wire
+		(pts
+			(xy 260.35 173.99) (xy 260.35 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717d5626-7251-4f54-863d-fd7de91c40c2")
 	)
 	(wire
 		(pts
@@ -5619,6 +5426,16 @@
 	)
 	(wire
 		(pts
+			(xy 401.32 134.62) (xy 401.32 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857024c7-5f79-4955-8342-049b5438fc94")
+	)
+	(wire
+		(pts
 			(xy 200.66 115.57) (xy 200.66 114.3)
 		)
 		(stroke
@@ -5636,16 +5453,6 @@
 			(type default)
 		)
 		(uuid "85dcfe35-5bec-4878-9a34-132474e3c8be")
-	)
-	(wire
-		(pts
-			(xy 260.35 110.49) (xy 401.32 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ff37ee-37b5-4c50-a6e4-10dd07dc4094")
 	)
 	(wire
 		(pts
@@ -5676,6 +5483,16 @@
 			(type default)
 		)
 		(uuid "8a3b0903-814f-45c3-a009-0933776b5f11")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac91627-5162-41cd-81f1-1ff17284d3e5")
 	)
 	(wire
 		(pts
@@ -5749,6 +5566,16 @@
 	)
 	(wire
 		(pts
+			(xy 401.32 93.98) (xy 400.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ba0ccd-2b3b-407d-ae25-2f8f7c4b7905")
+	)
+	(wire
+		(pts
 			(xy 189.23 92.71) (xy 189.23 114.3)
 		)
 		(stroke
@@ -5789,7 +5616,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 134.62) (xy 260.35 110.49)
+			(xy 260.35 93.98) (xy 260.35 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6069,7 +5896,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 205.74) (xy 368.3 207.01)
+			(xy 300.99 207.01) (xy 300.99 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6119,7 +5946,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 205.74) (xy 392.43 207.01)
+			(xy 325.12 207.01) (xy 325.12 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6156,6 +5983,16 @@
 			(type default)
 		)
 		(uuid "bb98373f-bfcc-4040-be26-d2c1f6d5ff4a")
+	)
+	(wire
+		(pts
+			(xy 281.94 93.98) (xy 289.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbf5054-bd79-433b-8562-537ac25e5442")
 	)
 	(wire
 		(pts
@@ -6229,6 +6066,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 93.98) (xy 260.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c243e81f-c32f-4e80-86ee-df82adb9bcd8")
+	)
+	(wire
+		(pts
 			(xy 274.32 85.09) (xy 274.32 86.36)
 		)
 		(stroke
@@ -6286,16 +6133,6 @@
 			(type default)
 		)
 		(uuid "cc6947c1-f16a-4472-b854-820fa070ed35")
-	)
-	(wire
-		(pts
-			(xy 327.66 190.5) (xy 401.32 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cca9280a-2bf1-4fed-8ab1-3066a04715f2")
 	)
 	(wire
 		(pts
@@ -6419,16 +6256,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 93.98) (xy 260.35 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d91a6ab1-03d8-4181-94dd-e28f819876e7")
-	)
-	(wire
-		(pts
 			(xy 168.91 71.12) (xy 168.91 49.53)
 		)
 		(stroke
@@ -6489,7 +6316,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 214.63) (xy 360.68 214.63)
+			(xy 284.48 215.9) (xy 293.37 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6509,7 +6336,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 214.63) (xy 336.55 214.63)
+			(xy 260.35 215.9) (xy 269.24 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6616,16 +6443,6 @@
 			(type default)
 		)
 		(uuid "eb662907-12a5-452e-bc7c-1c140b642706")
-	)
-	(wire
-		(pts
-			(xy 401.32 190.5) (xy 401.32 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb74a38b-4798-4bcd-b8d1-0e9977eb27c0")
 	)
 	(wire
 		(pts
@@ -6789,13 +6606,13 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 93.98) (xy 312.42 93.98)
+			(xy 71.12 73.66) (xy 71.12 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff74264d-7cfc-4264-84d1-635ce06cada8")
+		(uuid "ff9d466e-9a2b-4ac4-8ba4-4f3fbc4478de")
 	)
 	(label "COL4"
 		(at 214.63 36.83 180)
@@ -6806,6 +6623,16 @@
 			(justify right bottom)
 		)
 		(uuid "0991cdd8-ec68-455e-83f4-7e3da63c0b4c")
+	)
+	(label "LED_DIN"
+		(at 66.04 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09adb7ab-884e-4a06-b84b-0e871733ef45")
 	)
 	(label "COL5"
 		(at 234.95 36.83 180)
@@ -6886,6 +6713,16 @@
 			(justify left bottom)
 		)
 		(uuid "55060584-b37b-4cb1-a1e7-dd1a4c8987fe")
+	)
+	(label "ROW4"
+		(at 71.12 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ac4e318-93b7-45fa-bfaf-cdce01517c9e")
 	)
 	(label "ROW1"
 		(at 118.11 80.01 0)
@@ -7040,6 +6877,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 297.18 173.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7055,7 +6893,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 296.926 153.67 0)
+			(at 297.434 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +6901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 297.18 173.99 0)
 			(effects
 				(font
@@ -7142,7 +6980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 61.9252 158.75 0)
 			(effects
 				(font
@@ -7276,7 +7114,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "330R"
 			(at 262.89 57.15 90)
 			(effects
 				(font
@@ -7284,7 +7122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 262.89 51.562 90)
 			(effects
 				(font
@@ -7543,6 +7381,76 @@
 				)
 				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/f8923b6a-eff7-4cb3-8345-92f51b35d2af"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 50.8 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05d6235d-a5f0-4b1d-be2d-8a059bd81cae")
+		(property "Reference" "#PWR0191"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 50.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "face873c-4fac-44f0-b949-21e50fd232ec")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/4e67ea21-cb9f-4fd5-8759-9cbd37816d4a"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/f8923b6a-eff7-4cb3-8345-92f51b35d2af"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -7872,7 +7780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 73.152 232.41 90)
 			(effects
 				(font
@@ -7943,7 +7851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 367.03 85.3948 0)
 			(effects
 				(font
@@ -8162,7 +8070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 318.77 165.4048 0)
 			(effects
 				(font
@@ -8352,7 +8260,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
-		(at 368.3 214.63 0)
+		(at 300.99 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8360,7 +8268,7 @@
 		(dnp no)
 		(uuid "1789668c-e5d1-4a92-8597-ddf687fe2711")
 		(property "Reference" "LED53"
-			(at 368.3 196.85 0)
+			(at 300.99 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8276,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 368.046 194.31 0)
+			(at 300.736 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8285,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
-			(at 368.3 214.63 0)
+			(at 300.99 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,7 +8294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 214.63 0)
+			(at 300.99 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,7 +8303,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 368.3 214.63 0)
+			(at 300.99 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,7 +8361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 318.77 126.0348 0)
 			(effects
 				(font
@@ -8881,7 +8789,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
-		(at 344.17 214.63 0)
+		(at 276.86 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8889,7 +8797,7 @@
 		(dnp no)
 		(uuid "1c51f9e2-9da5-4fc4-a184-5444631b0706")
 		(property "Reference" "LED52"
-			(at 344.17 196.85 0)
+			(at 276.86 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +8805,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 343.916 194.31 0)
+			(at 276.606 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +8814,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
-			(at 344.17 214.63 0)
+			(at 276.86 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +8823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 214.63 0)
+			(at 276.86 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +8832,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 344.17 214.63 0)
+			(at 276.86 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,7 +9235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 367.03 165.4048 0)
 			(effects
 				(font
@@ -9376,6 +9284,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 274.32 93.98 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9391,7 +9300,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 274.066 73.66 0)
+			(at 274.574 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,7 +9308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 274.32 93.98 0)
 			(effects
 				(font
@@ -9453,7 +9362,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 339.09 207.01 90)
+		(at 271.78 208.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9461,7 +9370,7 @@
 		(dnp no)
 		(uuid "22049650-43fa-4ea9-8d3e-58478261c278")
 		(property "Reference" "C60"
-			(at 339.09 200.152 90)
+			(at 271.78 201.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,15 +9378,15 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 339.09 202.946 90)
+			(at 271.78 204.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 342.9 206.0448 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 275.59 207.3148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +9395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 339.09 207.01 0)
+			(at 271.78 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +9404,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 339.09 207.01 0)
+			(at 271.78 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,7 +9598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 273.05 44.7548 0)
 			(effects
 				(font
@@ -9835,7 +9744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 87.122 161.29 90)
 			(effects
 				(font
@@ -10476,7 +10385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 295.91 44.7548 0)
 			(effects
 				(font
@@ -10517,6 +10426,76 @@
 				)
 				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/f8923b6a-eff7-4cb3-8345-92f51b35d2af"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 66.04 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a646429-f2ff-4a6c-b36b-e9ea74ac82af")
+		(property "Reference" "#PWR0193"
+			(at 66.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f968ec8-d0d8-4a6e-9225-470511dec937")
+		)
+		(instances
+			(project "Split Keyboard"
+				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/4e67ea21-cb9f-4fd5-8759-9cbd37816d4a"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/f8923b6a-eff7-4cb3-8345-92f51b35d2af"
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -10687,7 +10666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 391.16 85.3948 0)
 			(effects
 				(font
@@ -11132,7 +11111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 273.05 126.0348 0)
 			(effects
 				(font
@@ -11342,7 +11321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 72.39 104.902 90)
 			(effects
 				(font
@@ -11579,7 +11558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 41.6052 227.33 0)
 			(effects
 				(font
@@ -11870,7 +11849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 367.03 44.7548 0)
 			(effects
 				(font
@@ -12242,7 +12221,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 368.3 222.25 0)
+		(at 300.99 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12251,7 +12230,7 @@
 		(fields_autoplaced yes)
 		(uuid "4779578e-57f9-433b-8801-44f0aebc62e0")
 		(property "Reference" "#PWR0201"
-			(at 368.3 228.6 0)
+			(at 300.99 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12260,7 +12239,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 368.3 227.33 0)
+			(at 300.99 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12268,7 +12247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 222.25 0)
+			(at 300.99 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12277,7 +12256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 222.25 0)
+			(at 300.99 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 222.25 0)
+			(at 300.99 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,6 +12292,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 392.43 93.98 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12328,7 +12308,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 392.176 73.66 0)
+			(at 392.684 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 392.43 93.98 0)
 			(effects
 				(font
@@ -13229,6 +13209,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 368.3 173.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13244,7 +13225,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 368.046 153.67 0)
+			(at 368.554 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13252,7 +13233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 368.3 173.99 0)
 			(effects
 				(font
@@ -13329,7 +13310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 391.16 126.0348 0)
 			(effects
 				(font
@@ -13377,7 +13358,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 344.17 205.74 0)
+		(at 276.86 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13386,7 +13367,7 @@
 		(fields_autoplaced yes)
 		(uuid "5984a1cf-142c-439d-9a9a-2f4765b5d8c8")
 		(property "Reference" "#PWR0197"
-			(at 344.17 209.55 0)
+			(at 276.86 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,7 +13376,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 344.17 200.66 0)
+			(at 276.86 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,7 +13384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 205.74 0)
+			(at 276.86 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 205.74 0)
+			(at 276.86 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13421,7 +13402,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 344.17 205.74 0)
+			(at 276.86 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13448,6 +13429,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 320.04 93.98 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13463,7 +13445,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 319.786 73.66 0)
+			(at 320.294 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13471,7 +13453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 320.04 93.98 0)
 			(effects
 				(font
@@ -13551,7 +13533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 65.278 147.32 90)
 			(effects
 				(font
@@ -13996,7 +13978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 273.05 85.3948 0)
 			(effects
 				(font
@@ -14137,6 +14119,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 344.17 173.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14152,7 +14135,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 343.916 153.67 0)
+			(at 344.424 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14160,7 +14143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 344.17 173.99 0)
 			(effects
 				(font
@@ -14307,7 +14290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 342.9 85.3948 0)
 			(effects
 				(font
@@ -14355,7 +14338,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 392.43 205.74 0)
+		(at 325.12 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14364,7 +14347,7 @@
 		(fields_autoplaced yes)
 		(uuid "6106999e-1e3b-47ee-be23-f05fa234d20c")
 		(property "Reference" "#PWR0203"
-			(at 392.43 209.55 0)
+			(at 325.12 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14373,7 +14356,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 392.43 200.66 0)
+			(at 325.12 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14381,7 +14364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 392.43 205.74 0)
+			(at 325.12 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14390,7 +14373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 205.74 0)
+			(at 325.12 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14399,7 +14382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 392.43 205.74 0)
+			(at 325.12 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14936,7 +14919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 367.03 126.0348 0)
 			(effects
 				(font
@@ -15055,6 +15038,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 320.04 173.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15070,7 +15054,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 319.786 153.67 0)
+			(at 320.294 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15078,7 +15062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 320.04 173.99 0)
 			(effects
 				(font
@@ -15926,7 +15910,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
-		(at 392.43 214.63 0)
+		(at 325.12 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15934,7 +15918,7 @@
 		(dnp no)
 		(uuid "79be31a5-a3e6-4cfa-9aac-96bf91502b93")
 		(property "Reference" "LED54"
-			(at 392.43 196.85 0)
+			(at 325.12 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15942,7 +15926,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 392.176 194.31 0)
+			(at 324.866 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15951,7 +15935,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
-			(at 392.43 214.63 0)
+			(at 325.12 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15960,7 +15944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 214.63 0)
+			(at 325.12 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15969,7 +15953,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 392.43 214.63 0)
+			(at 325.12 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16073,76 +16057,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_power:VREF")
-		(at 66.04 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cdd51af-047d-4c2b-9957-2633de20bfad")
-		(property "Reference" "#PWR013"
-			(at 66.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 66.04 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VREF\""
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57c9bd69-b3c2-40c9-9325-ff5c8b58d628")
-		)
-		(instances
-			(project "Split Keyboard"
-				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/4e67ea21-cb9f-4fd5-8759-9cbd37816d4a"
-					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/f8923b6a-eff7-4cb3-8345-92f51b35d2af"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 383.54 166.37 0)
 		(unit 1)
@@ -16215,6 +16129,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 297.18 93.98 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16230,7 +16145,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 296.926 73.66 0)
+			(at 297.434 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16238,7 +16153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 297.18 93.98 0)
 			(effects
 				(font
@@ -16637,7 +16552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS8040"
 			(at 55.88 208.28 0)
 			(effects
 				(font
@@ -16827,6 +16742,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 344.17 93.98 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16842,7 +16758,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 343.916 73.66 0)
+			(at 344.424 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16850,7 +16766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 344.17 93.98 0)
 			(effects
 				(font
@@ -17144,7 +17060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 85.3948 226.06 0)
 			(effects
 				(font
@@ -17215,7 +17131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 391.16 44.7548 0)
 			(effects
 				(font
@@ -18528,7 +18444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.3352 163.83 0)
 			(effects
 				(font
@@ -19040,7 +18956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 391.16 165.4048 0)
 			(effects
 				(font
@@ -19401,6 +19317,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 392.43 173.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19416,7 +19333,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 392.176 153.67 0)
+			(at 392.684 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19424,7 +19341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 392.43 173.99 0)
 			(effects
 				(font
@@ -19571,7 +19488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 295.91 165.4048 0)
 			(effects
 				(font
@@ -19759,7 +19676,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 387.35 207.01 90)
+		(at 320.04 208.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19767,7 +19684,7 @@
 		(dnp no)
 		(uuid "a54f7839-9393-4da8-ad60-b1e3e123a20a")
 		(property "Reference" "C62"
-			(at 387.35 200.152 90)
+			(at 320.04 201.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19775,15 +19692,15 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 387.35 202.946 90)
+			(at 320.04 204.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 391.16 206.0448 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 323.85 207.3148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19792,7 +19709,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 387.35 207.01 0)
+			(at 320.04 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19801,7 +19718,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 387.35 207.01 0)
+			(at 320.04 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20015,7 +19932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 318.77 85.3948 0)
 			(effects
 				(font
@@ -20086,7 +20003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 318.77 44.7548 0)
 			(effects
 				(font
@@ -20419,6 +20336,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 274.32 173.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20434,7 +20352,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 274.066 153.67 0)
+			(at 274.574 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20442,7 +20360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 274.32 173.99 0)
 			(effects
 				(font
@@ -20776,7 +20694,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 207.01 0)
+		(at 292.1 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20785,7 +20703,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbdbcf4f-ffe3-4434-99cc-9d998d5341e9")
 		(property "Reference" "#PWR0199"
-			(at 359.41 213.36 0)
+			(at 292.1 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20794,7 +20712,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.41 212.09 0)
+			(at 292.1 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20802,7 +20720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 207.01 0)
+			(at 292.1 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20811,7 +20729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 207.01 0)
+			(at 292.1 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20820,7 +20738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 207.01 0)
+			(at 292.1 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20846,7 +20764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 392.43 222.25 0)
+		(at 325.12 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20855,7 +20773,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbfd2690-35c8-4e6b-90a3-b3830afd3536")
 		(property "Reference" "#PWR0204"
-			(at 392.43 228.6 0)
+			(at 325.12 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20864,7 +20782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 392.43 227.33 0)
+			(at 325.12 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20872,7 +20790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 392.43 222.25 0)
+			(at 325.12 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20881,7 +20799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 222.25 0)
+			(at 325.12 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20890,7 +20808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 392.43 222.25 0)
+			(at 325.12 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21306,7 +21224,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 344.17 222.25 0)
+		(at 276.86 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21315,7 +21233,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2fc6050-c674-40e6-9952-fd3ff270a6f4")
 		(property "Reference" "#PWR0198"
-			(at 344.17 228.6 0)
+			(at 276.86 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21324,7 +21242,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 344.17 227.33 0)
+			(at 276.86 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21332,7 +21250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 222.25 0)
+			(at 276.86 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21341,7 +21259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 222.25 0)
+			(at 276.86 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21350,7 +21268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 344.17 222.25 0)
+			(at 276.86 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21446,7 +21364,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 383.54 207.01 0)
+		(at 316.23 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21455,7 +21373,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4ddfdbc-42f3-4c61-b1df-81b8faf1af58")
 		(property "Reference" "#PWR0202"
-			(at 383.54 213.36 0)
+			(at 316.23 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21464,7 +21382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 383.54 212.09 0)
+			(at 316.23 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21472,7 +21390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 207.01 0)
+			(at 316.23 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21481,7 +21399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 207.01 0)
+			(at 316.23 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21490,7 +21408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 383.54 207.01 0)
+			(at 316.23 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21539,7 +21457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 295.91 85.3948 0)
 			(effects
 				(font
@@ -21610,7 +21528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 295.91 126.0348 0)
 			(effects
 				(font
@@ -21651,76 +21569,6 @@
 				)
 				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/f8923b6a-eff7-4cb3-8345-92f51b35d2af"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom_power:VREF")
-		(at 50.8 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c79b0bce-bda2-40ea-b37d-7835a7fe8699")
-		(property "Reference" "#PWR011"
-			(at 50.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 50.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VREF\""
-			(at 50.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce089376-5fa5-4b9c-8738-2e594fa18551")
-		)
-		(instances
-			(project "Split Keyboard"
-				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/4e67ea21-cb9f-4fd5-8759-9cbd37816d4a"
-					(reference "#PWR011")
-					(unit 1)
-				)
-				(path "/9e619f45-be83-4f2f-bdca-5b2d9dcf4c08/f8923b6a-eff7-4cb3-8345-92f51b35d2af"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -21821,7 +21669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 342.9 44.7548 0)
 			(effects
 				(font
@@ -22007,7 +21855,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 335.28 207.01 0)
+		(at 267.97 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22016,7 +21864,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce29cc7a-8031-45df-a988-25584d5bf253")
 		(property "Reference" "#PWR0196"
-			(at 335.28 213.36 0)
+			(at 267.97 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22025,7 +21873,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 335.28 212.09 0)
+			(at 267.97 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22033,7 +21881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 207.01 0)
+			(at 267.97 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22042,7 +21890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 207.01 0)
+			(at 267.97 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22051,7 +21899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 335.28 207.01 0)
+			(at 267.97 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22459,7 +22307,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 363.22 207.01 90)
+		(at 295.91 208.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22467,7 +22315,7 @@
 		(dnp no)
 		(uuid "d4f0faf9-e721-41b0-992f-6df265b015b6")
 		(property "Reference" "C61"
-			(at 363.22 200.152 90)
+			(at 295.91 201.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22475,15 +22323,15 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 363.22 202.946 90)
+			(at 295.91 204.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 367.03 206.0448 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 299.72 207.3148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22492,7 +22340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 207.01 0)
+			(at 295.91 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22501,7 +22349,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 363.22 207.01 0)
+			(at 295.91 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22553,7 +22401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 342.9 165.4048 0)
 			(effects
 				(font
@@ -22624,7 +22472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 342.9 126.0348 0)
 			(effects
 				(font
@@ -22975,7 +22823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 273.05 165.4048 0)
 			(effects
 				(font
@@ -23289,7 +23137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 90.17 108.458 90)
 			(effects
 				(font
@@ -23642,6 +23490,7 @@
 	(symbol
 		(lib_id "PCM_marbastlib-choc:choc_SK6812MINI-E")
 		(at 368.3 93.98 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23657,7 +23506,7 @@
 			)
 		)
 		(property "Value" "choc_SK6812MINI-E"
-			(at 368.046 73.66 0)
+			(at 368.554 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23665,7 +23514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R-ROT"
 			(at 368.3 93.98 0)
 			(effects
 				(font
@@ -23719,7 +23568,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 368.3 205.74 0)
+		(at 300.99 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23728,7 +23577,7 @@
 		(fields_autoplaced yes)
 		(uuid "eed16ba9-a03c-4e29-bde7-819f968878f5")
 		(property "Reference" "#PWR0200"
-			(at 368.3 209.55 0)
+			(at 300.99 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23737,7 +23586,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 368.3 200.66 0)
+			(at 300.99 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23745,7 +23594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 205.74 0)
+			(at 300.99 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23754,7 +23603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 205.74 0)
+			(at 300.99 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23763,7 +23612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 368.3 205.74 0)
+			(at 300.99 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24303,7 +24152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 73.152 223.52 90)
 			(effects
 				(font
@@ -24617,7 +24466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 284.48 30.7848 0)
 			(effects
 				(font

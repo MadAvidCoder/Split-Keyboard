@@ -117,7 +117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Panelization:mouse-bite-5mm-slot"
+		(property "Footprint" "Panelization:mouse-bite-3mm-slot"
 			(at 148.59 34.29 0)
 			(effects
 				(font
@@ -181,7 +181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Panelization:mouse-bite-5mm-slot"
+		(property "Footprint" "Panelization:mouse-bite-3mm-slot"
 			(at 148.59 25.4 0)
 			(effects
 				(font
@@ -245,7 +245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Panelization:mouse-bite-5mm-slot"
+		(property "Footprint" "Panelization:mouse-bite-3mm-slot"
 			(at 148.59 43.18 0)
 			(effects
 				(font
