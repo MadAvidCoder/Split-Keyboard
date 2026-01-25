@@ -647,7 +647,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../case/pcb.step",
       "svg": "",
       "vrml": ""
     },
