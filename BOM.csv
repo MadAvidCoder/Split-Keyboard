@@ -1,0 +1,28 @@
+Part Name,Supplier,Link,Req. Qty,Total Qty,Unit Price,,Total,,Product Description
+PCB,JLCPCB,https://jlcpcb.com/,1,5,$2.51,,$12.55,,The PCB for the project
+LiPo Battery,EcoCell,https://ecocell.com.au/product/lipo-600-503040/,2,2,$5.80,,$11.60,,Rechargeable battery to power the keyboard
+nice!nano,AliExpress,https://www.aliexpress.com/item/1005007266900944.html,2,2,$4.55,,$9.10,,Main microcontroller for the board (cheaper than xiao)
+Hotswap Sockets,AliExpress,https://www.aliexpress.com/item/1005009312876316.html,54,70,$0.11,,$7.70,,"Hotswap sockets, which make soldering easier"
+Switches,AliExpress,https://www.aliexpress.com/item/1005008751312031.html,54,60,$0.46,,$27.60,,"There are a number of other options, but these seem the cheapest/best"
+SK6812-MINI-E,LCSC,https://www.lcsc.com/product-detail/C5149201.html,54,55,$0.07,,$3.85,,LED Backlight (reverse-mounted)
+DMBJ PNLS8040-100M 10UH,LCSC,https://www.lcsc.com/product-detail/C2849554.html,2,5,$0.11,,$0.55,,Inductors for the 5V regulator
+100nF Capacitor,LCSC,https://www.lcsc.com/product-detail/C49678.html,56,100,$0.01,,$1.00,,"Used in various places, mostly as decoupling capacitors for the LEDs"
+10uF Capacitor,LCSC,https://www.lcsc.com/product-detail/C32635.html,2,10,$0.02,,$0.20,,Decoupling Capacitor for the battery protection ic
+22uF Capacitor,LCSC,https://www.lcsc.com/product-detail/C98190.html,4,10,$0.02,,$0.20,,Decoupling capacitors for the 5V Boost converter
+470uF Capacitor,LCSC,https://www.lcsc.com/product-detail/C2858856.html,2,10,$0.04,,$0.40,,Bulk Capacitor for the LEDs
+1N5819 Diode,LCSC,https://www.lcsc.com/product-detail/C963381.html,54,100,$0.01,,$1.00,,Diodes for the keyboard matrix
+SS34 Schottky Diode,LCSC,https://www.lcsc.com/product-detail/C842788.html,2,10,$0.03,,$0.30,,Schottky Diodes for low power loss in the boost converter
+806k Resistor,LCSC,https://www.lcsc.com/product-detail/C865659.html,2,20,$0.00,,$0.00,,For the voltage divider
+2M Resistor,LCSC,https://www.lcsc.com/product-detail/C26112.html,2,100,$0.00,,$0.00,,For the voltage divider
+470R Resistor,LCSC,https://www.lcsc.com/product-detail/C2907267.html,2,100,$0.00,,$0.00,,For the BMS circuitry. Ordering so many because it works out far cheaper than other options
+2k Resistor,LCSC,https://www.lcsc.com/product-detail/C2907248.html,2,100,$0.00,,$0.00,,For the BMS current detection. Ditto above as to why 100
+10k Resistor,LCSC,https://www.lcsc.com/product-detail/C319942.html,2,10,$0.04,,$0.40,,"Has to be low tolerance, for the 5v boost converter feedback"
+73k2 Resistor,LCSC,https://www.lcsc.com/product-detail/C422816.html,2,50,$0.01,,$0.50,,"Has to be low tolerance, and they only had a few options, which had high MOQ"
+330R Resistor,LCSC,https://www.lcsc.com/product-detail/C2907321.html,2,100,$0.00,,$0.00,,"For the LED Data lines, ordering a ton because its cheaper than one with low MOQ"
+DW01A,LCSC,https://www.lcsc.com/product-detail/C18164398.html,2,20,$0.02,,$0.40,,Battery Management IC (20 bc MOQ)
+FS8205,LCSC,https://www.lcsc.com/product-detail/C2830320.html,2,10,$0.05,,$0.50,,MOSFETs for the BMS
+MT3608,LCSC,https://www.lcsc.com/product-detail/C84817.html,2,10,$0.06,,$0.60,,5V Boost Converter
+LCSC Shipping,LCSC,https://www.lcsc.com/,1,1,$12.72,,$12.72,,Shipping costs for all LCSC parts
+EcoCell Shipping,EcoCell,https://ecocell.com.au/,1,1,$2.78,,$2.78,,Shipping costs for all EcoCell parts
+,,,,,,,,,
+TOTAL,,,,,,,$93.95,,
