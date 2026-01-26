@@ -78,3 +78,5 @@ In some cases, items may have higher quantities than are actually needed, due to
 | MT3608                  | 10   | 0.06        | 0.60             | https://www.lcsc.com/product-detail/C84817.html       |
 | LCSC Shipping           | 1    | 12.72       | 12.72            | https://www.lcsc.com/                                 |
 | EcoCell Shipping        | 1    | 2.78        | 2.78             | https://ecocell.com.au/                               |
+|                         |      |             |                  |                                                       |
+| **TOTAL**               |      |             |                  | **$93.95 (USD)**                                      |  
